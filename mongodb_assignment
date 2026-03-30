@@ -1,0 +1,22 @@
+1) Retrieve all employee records
+ans : db.employees.find()
+
+2) Find employees who work in the IT department
+ans : db.employees.find({department:"IT"})
+
+3) Find employees who have a salary greater than 70,000
+ans : db.employees.find({
+	salary:{$gt:70000}
+	})
+	
+4) Find employees who joined after 2018
+ans : db.employees.find({
+	joining_date: { $gt: new Date("2018-12-31") }
+	})
+
+5) Find employees between the ages of 30 and 40
+ans : db.employees.find({
+	age:{$gt:30,$lt:40}
+	})
+
+6) 

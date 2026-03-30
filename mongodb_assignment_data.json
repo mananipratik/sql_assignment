@@ -1,0 +1,12 @@
+[
+  { "name": "Alice Johnson", "age": 30, "department": "HR", "salary": 60000, "joining_date": "2019-05-15" },
+  { "name": "Bob Smith", "age": 40, "department": "IT", "salary": 80000, "joining_date": "2015-08-20" },
+  { "name": "Charlie Brown", "age": 35, "department": "Finance", "salary": 75000, "joining_date": "2018-11-30" },
+  { "name": "David White", "age": 28, "department": "IT", "salary": 72000, "joining_date": "2021-01-10" },
+  { "name": "Emma Wilson", "age": 32, "department": "Marketing", "salary": 65000, "joining_date": "2017-03-25" },
+  { "name": "Franklin Adams", "age": 45, "department": "Finance", "salary": 90000, "joining_date": "2010-07-12" },
+  { "name": "Grace Lee", "age": 29, "department": "HR", "salary": 58000, "joining_date": "2020-06-05" },
+  { "name": "Henry Ford", "age": 50, "department": "IT", "salary": 95000, "joining_date": "2008-12-15" },
+  { "name": "Isabella Martinez", "age": 38, "department": "Marketing", "salary": 70000, "joining_date": "2016-09-18" },
+  { "name": "Jack Carter", "age": 27, "department": "Finance", "salary": 68000, "joining_date": "2022-04-10" }
+]
