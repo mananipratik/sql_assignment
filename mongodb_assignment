@@ -19,4 +19,16 @@ ans : db.employees.find({
 	age:{$gt:30,$lt:40}
 	})
 
-6) 
+6) Increase the salary of all employees in the Finance department by 5%
+ans : db.employees.updateMany( { 
+	department: "Finance" },
+	{ $mul: { salary: 1.05 }
+	})
+
+7)  Delete employees who joined before 2010
+ans : db.employees.deleteMany({
+	joining_date:{$lt:new Date("2010-01-01")}
+	})
+
+8) Find the highest-paid employee
+ans : db.employees.find().sort({salary:-1}).limit(1) 
