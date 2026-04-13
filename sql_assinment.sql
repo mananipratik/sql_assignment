@@ -11,7 +11,7 @@
 --  select sum(purch_amt)as total_purchase_amount from orders;
 
 -- 5. write a SQL query to find the highest purchase amount ordered by each customer. Return customer ID, maximum purchase amount.
--- SELECT customer_id, MAX(purch_amt) FROM orders GROUP BY customer_id;
+-- SELECT customer_id,MAX(purch_amt) FROM orders GROUP BY customer_id;
 
 -- 6. write a SQL query to calculate the average product price. Return average product price.
 -- select avg(pro_price) from item_mast;
