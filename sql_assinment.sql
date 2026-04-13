@@ -25,6 +25,7 @@
 -- 9. write a SQL query to find all those employees who work in department ID80or40. Return first name, last name, department number and department name.
 -- select e.first_name,e.last_name,e.department_id, d.department_name from employees e join departments d on e.department_id = d.department_id where e.department_id in (80,40);
 
+-- use non;
 -- 10. write a SQL query to calculate the average salary, the number of employees receiving commissions in that department. Return department name, averagesalary and number of employees
 -- SELECT d.department_name,AVG(e.salary) AS average_salary, COUNT(e.commission_pct) AS number_of_employees FROM employees e JOIN departments d ON e.department_id = d.department_id GROUP BY d.department_name;
 
@@ -35,7 +36,7 @@
 -- select employee_id,first_name,last_name,salary from employees where salary>(select avg(salary) from employees);
 
 -- 13. write a SQL query to find all those employees who work in the Finance department. Return department ID, name (first), job ID and department name.
--- select d.department_id,d.department_name,e.job_id,e.first_name from departments d join employees e on d.department_id = e.department_id where d.department_name='finance';
+-- select d.department_id,d.department_name,e.job_id,e.first_name from departments d join employees e on d.department_id = e.department_id where d.department_name='Finance';
 
 -- 14. From the following table, write a SQL query to find the employees whoearnlessthan the employee of ID 182. Return first name, last name and salary.
 -- select first_name,last_name,salary from employees where salary < (select salary from employees  where employee_id = 182);
